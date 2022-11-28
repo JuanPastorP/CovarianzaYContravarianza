@@ -2,4 +2,4 @@
 class objetoA: public A{
     public:
         void fooA();
-}
+};

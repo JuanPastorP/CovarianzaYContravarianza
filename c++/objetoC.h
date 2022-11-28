@@ -4,4 +4,4 @@ class objetoC: public C{
         void fooA();
         void fooB();
         void fooC();
-}
+};
