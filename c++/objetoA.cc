@@ -1,5 +1,6 @@
 #include "objetoA.h"
-class objetoA: public A{
-    public:
-        void fooA();
+#include <iostream>
+using namespace std;
+void objetoA: fooA(){
+    cout << "objetoA : fooA\n";
 }
