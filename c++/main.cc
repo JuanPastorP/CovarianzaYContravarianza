@@ -4,6 +4,6 @@
 #include "objetoB.cc"
 #include "objetoC.cc"
 int main(){
-  X objetoY = new Y();
-  objetoY.foo(new objetoB);
-}
+  X* objetoY = new Y();
+  objetoY->foo(new objetoB);
+}   
