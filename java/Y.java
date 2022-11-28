@@ -7,7 +7,7 @@ public class Y extends X{
 */
 // Se puede ver que esta funcionando correctamente
 	
-/*	public A foo(B test){
+/* 	public A foo(B test){
 		test.fooB();
 		return new objetoA();
 	}
@@ -26,7 +26,7 @@ return type A is not compatible with B
 	}*/
 // Si permite covarianza en el rentorno de C
 	
-/*	@Override
+/* 	@Override
 	public B foo(A test){
 		test.foo();
 		return new objetoA();
@@ -39,7 +39,7 @@ The method foo(B) in the type X is not applicable for the arguments (objetoA)
 
 at main.main(main.java:5)
  */
-	
+
 	@Override
 	public B foo(C test){
 		test.fooA();
@@ -49,7 +49,7 @@ at main.main(main.java:5)
 		return new objetoC();
 	}
 	
-
+//No se permite covarianza al enviar C
 
 	
 }
