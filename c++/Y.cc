@@ -6,9 +6,15 @@
     objetoB* prueba = new objetoB();
     return prueba;
 }*/
-C* Y::foo(B* test){    
+/*C* Y::foo(B* test){    
     objetoC* prueba = new objetoC();
     prueba->fooC();
     return prueba;
-}
+}*/
 // Si permite covarianza de al retornar C*
+A* Y::foo(B* test){    
+    objetoA* prueba = new objetoA();
+    prueba->fooA();
+    return prueba;
+}
+//No permite contravarianza al retornar A*

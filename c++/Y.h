@@ -6,6 +6,7 @@
 class Y: public X{
     public:
         //B* foo(B* test) override;
-        C* foo(B* test) override;
+        //C* foo(B* test) override;
+        A* foo(A* test) override;
 };
 #endif
