@@ -1,9 +1,10 @@
 #include "X.h"
 #include "Y.h"
-#include "objetoA.cc"
-#include "objetoB.cc"
-#include "objetoC.cc"
+#include "objetoA.h"
+#include "objetoB.h"
+#include "objetoC.h"
 int main(){
   X* objetoY = new Y();
-  objetoY->foo(new objetoB);
+  objetoB* nuevo = new objetoB();
+  objetoY->foo(nuevo);
 }   

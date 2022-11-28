@@ -3,8 +3,8 @@
 #include "C.h"
 class objetoC: public C{
     public:
-        void fooA() = 0;
-        void fooB() = 0;
-        void fooC() = 0;
+        void fooA() override;
+        void fooB() override;
+        void fooC() override;
 };
 #endif

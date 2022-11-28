@@ -3,7 +3,7 @@
 #include "B.h"
 class objetoB: public B{
     public:
-        void fooA() = 0;
-        void fooB() = 0;
+        void fooA() override;
+        void fooB() override;
 };
 #endif
