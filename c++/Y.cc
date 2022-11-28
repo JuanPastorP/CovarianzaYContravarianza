@@ -1,6 +1,6 @@
 #include "Y.h"
-#include "objetoA.cc"
-#include "objetoC.cc"
+#include "objetoA.h"
+#include "objetoC.h"
 void Y:: foo(B test){
     test.fooB();
     return B;

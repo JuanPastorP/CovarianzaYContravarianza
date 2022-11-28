@@ -1,5 +1,8 @@
+#ifndef C_H
+#define C_H
 #include "B.h"
 class C: public B{
     public:
-        virtual void fooC();
+        virtual void fooC() = 0;
 };
+#endif 
