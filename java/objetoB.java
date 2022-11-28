@@ -10,5 +10,9 @@ public class objetoB implements B{
 	public void fooB() {
 		System.out.println("ObjetoB : fooB");
 	}
-
+	
+	public void foo() {
+		fooA();
+		fooB();
+	}
 }

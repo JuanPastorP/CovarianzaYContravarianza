@@ -15,5 +15,10 @@ public class objetoC implements C{
 	public void fooC() {
 		System.out.println("ObjetoC : fooC");
 	}
-
+	
+	public void foo() {
+		fooA();
+		fooB();
+		fooC();
+	}
 }
