@@ -1,6 +1,14 @@
 public class Y extends X{
 	
-    public B test(A test){
-        return test;
+/*    public B foo(B test){
+		test.fooB();
+        return new objetoB();
     }
-}
+}*/
+// Se puede ver que esta funcionando correctamente
+	
+	public A foo(B test){
+		test.fooB();
+		return new objetoA();
+		}
+    }

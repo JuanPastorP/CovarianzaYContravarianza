@@ -1,5 +1,5 @@
 public class X {
-    public B test(B var){
+    public B foo(B var){
         return var;
     }    
 }
