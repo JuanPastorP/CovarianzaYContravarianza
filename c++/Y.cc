@@ -12,9 +12,20 @@
     return prueba;
 }*/
 // Si permite covarianza de al retornar C*
-A* Y::foo(B* test){    
+/*A* Y::foo(B* test){    
     objetoA* prueba = new objetoA();
     prueba->fooA();
     return prueba;
-}
+}*/
 //No permite contravarianza al retornar A*
+B* Y::foo(A* test){    
+    objetoB* prueba = new objetoB();
+    test->fooA();
+    return prueba;
+}
+//No permite contravarianza al ingresar el valor A*
+B* Y::foo(C* test){    
+    objetoB* prueba = new objetoB();
+    test->fooC();
+    return prueba;
+}

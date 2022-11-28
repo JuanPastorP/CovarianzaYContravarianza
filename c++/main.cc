@@ -5,6 +5,6 @@
 #include "objetoC.h"
 int main(){
   X* objetoY = new Y();
-  objetoB* nuevo = new objetoB();
+  objetoC* nuevo = new objetoC();
   objetoY->foo(nuevo);
 }   
