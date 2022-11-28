@@ -16,9 +16,4 @@ public class objetoC implements C{
 		System.out.println("ObjetoC : fooC");
 	}
 	
-	public void foo() {
-		fooA();
-		fooB();
-		fooC();
-	}
 }

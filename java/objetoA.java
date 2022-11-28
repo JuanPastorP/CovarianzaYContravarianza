@@ -5,8 +5,5 @@ public class objetoA implements A{
 	public void fooA() {
 		System.out.println("ObjetoA : fooA");
 	}
-	
-	public void foo() {
-		fooA();
-	}
+
 }

@@ -26,12 +26,12 @@ return type A is not compatible with B
 	}*/
 // Si permite covarianza en el rentorno de C
 	
-	@Override
+/*	@Override
 	public B foo(A test){
 		test.foo();
 		return new objetoA();
 	}
-
+*/
 //No permite contravarianza en el argumento del tipo A error:
 /*
  Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
@@ -39,5 +39,18 @@ The method foo(B) in the type X is not applicable for the arguments (objetoA)
 
 at main.main(main.java:5)
  */
+	
+	@Override
+	public B foo(C test){
+		test.fooA();
+		test.fooB();
+		test.fooC();
+
+		return new objetoC();
+	}
+	
+
+
+	
 }
 
